@@ -4,13 +4,13 @@ Esta es una aplicación que permite la generación aleatorea de una clave de 102
 
 ## Complilación
 
-** Para generar un binario con el mismo sistema operativo
+### Para generar un binario con el mismo sistema operativo
 
 ```bash
 fyne package -executable firmadoc -icon icon.png
 ```
 
-** Para generar un binario hacia otro sistema operativo
+### Para generar un binario hacia otro sistema operativo
 
 ```bash
 CGO_ENABLED=1 CC=x86_64-w64-mingw32-gcc CXX=x86_64-w64-mingw32-g++ fyne package -os windows -icon icon.png
