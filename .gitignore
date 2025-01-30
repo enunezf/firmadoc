@@ -28,3 +28,5 @@ go.work.sum
 signing_key.txt
 firmadoc
 firmadoc.exe
+firmadoc.app/
+.DS_Store
